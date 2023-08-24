@@ -1,0 +1,31 @@
+*{
+	background-color: black;
+}
+#font_head{
+	color: #2bffe6;
+}
+#font_text{
+	color: white;
+}
+img{
+	margin: 0;
+}
+.font_center{
+	left: 20px;
+}
+.image-container {
+	position: relative;
+	margin: 0;
+	display: inline-block;
+	margin-right: 20px; /* Add some spacing between images */
+}
+
+.image-caption {
+/*	position: absolute;*/	
+	bottom: 0;
+	left: 0;
+	color: white;
+	font-size: 14px;
+	width: 100%; /* Set the caption width to match the image width */
+/*	box-sizing: border-box; /* Include padding in width calculation */*/
+}
